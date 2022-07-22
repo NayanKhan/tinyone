@@ -1,0 +1,292 @@
+@media only screen and (min-width:768px) and (max-width:991px) {
+
+
+    header .navbar.navbar-expand-lg.navbar-light.navbar-expand-md {
+        padding-top: 25px;
+    }
+    #home {
+        padding-top: 140px;
+        padding-bottom: 110px;
+    }
+    #home h1 {
+        font-size: 42px;
+    }
+    #home p {
+        font-size: 16px;
+    }
+    #home a {
+        font-size: 32px;
+        line-height: 65px;
+        width: 65px;
+        margin: 0px 15px;
+    }
+    .common_heading h2 {
+        font-size: 30px;
+    }
+    .common_heading p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    #about {
+        padding-top: 75px;
+        padding-bottom: 70px;
+    }
+    #about .image-fluid {
+        max-width: 100%;
+    }
+    #about .content h3 {
+        font-size: 20px;
+        padding-top: 32px;
+        padding-bottom: 10px;
+    }
+    #about .content p {
+        font-size: 13px;
+        line-height: 23px;
+    }
+    #contact {
+        padding-top: 70px;
+        padding-bottom: 40px;
+    }
+    #contact input {
+        height: 45px;
+        font-size: 14px;
+    }
+    #contact button {
+        font-size: 14px;
+        width: 90px;
+        ;
+        height: 45px;
+    }
+    footer {
+        padding-bottom: 120px;
+        padding-top: 40px;
+    }
+    footer h4 {
+        font-size: 14px;
+        padding-left: 20px;
+    }
+    footer p {
+        font-size: 13px;
+        line-height: 23px;
+        padding-left: 20px;
+    }
+    footer ul li a {
+        font-size: 13px;
+        line-height: 23px;
+    }
+
+
+}
+
+/* @media only screen and (min-width:768px) and (max-width:991px) ends */
+
+@media only screen and (max-width:767px) {
+    .navbar-light .navbar-toggler {
+        border: none;
+        padding: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+    header .navbar .navbar-nav {
+        border-top: 1px solid rgba(0, 0, 0, 0.6);
+    }
+    header .navbar .navbar-nav .nav-item .nav-link {
+        text-align: center;
+        margin: 10px 0px;
+    }
+
+}
+
+
+/* @media only screen and (min-width:576px) and (max-width:767px) ends */
+
+@media only screen and (min-width:576px) and (max-width:767px) {
+    header .navbar.navbar-expand-lg.navbar-light.navbar-expand-md {
+        padding-top: 15px;
+    }
+    #home {
+        padding-top: 100px;
+        padding-bottom: 90px;
+    }
+    #home h1 {
+        font-size: 32px;
+        padding-bottom: 10px;
+    }
+    #home p {
+        font-size: 13px;
+        line-height: 23px;
+    }
+    #home a {
+        font-size: 25px;
+        line-height: 50px;
+        width: 50px;
+        margin: 0px 10px;
+    }
+    .common_heading h2 {
+        font-size: 22px;
+    }
+    .common_heading p {
+        font-size: 12px;
+        line-height: 20px;
+        padding-bottom: 40px;
+        padding-top: 5px;
+    }
+    #about {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+    #about .image-fluid {
+        max-width: 100%;
+    }
+    #about .content h3 {
+        font-size: 16px;
+        padding-top: 20px;
+        padding-bottom: 5px;
+    }
+    #about .content p {
+        font-size: 11px;
+        line-height: 18px;
+    }
+    #contact {
+        padding-top: 45px;
+        padding-bottom: 25px;
+    }
+    #contact input {
+        height: 35px;
+        font-size: 12px;
+    }
+    #contact button {
+        width: 70px;
+        font-size: 12px;
+        width: 100%;
+        height: 35px;
+    }
+    footer {
+        padding-bottom: 85px;
+        padding-top: 25px;
+    }
+    footer h4 {
+        font-size: 11px;
+        padding-left: 0px;
+    }
+    footer p {
+        font-size: 12px;
+        line-height: 18px;
+        padding-left: 0px;
+    }
+    footer ul li a {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+
+}
+
+/* @media only screen and (min-width:576px) and (max-width:767px) ends */
+
+@media only screen and (min-width:300px) and (max-width:575px) {
+
+    header .navbar .navbar-nav .nav-item .nav-link {
+        margin-left: 10px;
+    }
+    header .navbar-light .navbar-toggler {
+        padding-right: 20px;
+    }
+    header .image-fluid {
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+    header .navbar.navbar-expand-lg.navbar-light.navbar-expand-md {
+        padding-top: 10px;
+    }
+    #home {
+        padding-top: 65px;
+        padding-bottom: 55px;
+    }
+    #home h1 {
+        font-size: 22px;
+        padding-bottom: 5px;
+    }
+    #home p {
+        font-size: 13px;
+        line-height: 23px;
+        padding-bottom: 10px;
+    }
+    #home a {
+        font-size: 20px;
+        line-height: 35px;
+        width: 35px;
+        margin: 0px 3px;
+    }
+    .common_heading h2 {
+        font-size: 22px;
+    }
+    .common_heading p {
+        font-size: 10px;
+        line-height: 15px;
+        padding-bottom: 25px;
+        padding-top: 5px;
+    }
+    #about {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+    #about .image-fluid {
+        max-width: 100%;
+        height: 150px;
+        padding-left: 10px;
+    }
+    #about .content h3 {
+        font-size: 11px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-left: 10px;
+    }
+    #about .content p {
+        font-size: 8px;
+        line-height: 12px;
+        padding-left: 10px;
+    }
+    #contact {
+        padding-top: 45px;
+        padding-bottom: 25px;
+    }
+    #contact input {
+        height: 25px;
+        font-size: 10px;
+        padding-left: 11px;
+        border-radius: 3px;
+    }
+    #contact button {
+        font-size: 9px;
+        width: 40px;
+        height: 25px;
+        border-radius: 3px;
+    }
+    footer {
+        padding-bottom: 85px;
+        padding-top: 25px;
+    }
+    footer h4 {
+        font-size: 11px;
+        padding-left: 0px;
+    }
+    footer p {
+        font-size: 10px;
+        line-height: 16px;
+        padding-left: 0px;
+    }
+    footer ul li a {
+        font-size: 11px;
+    }
+    footer {
+        padding-bottom: 45px;
+        padding-top: 10px;
+    }
+
+}
+
+/* @media only screen and (min-width:300px) and (max-width:575px) ends */

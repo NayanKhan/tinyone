@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+button:focus {
+    outline: 0;
+}
+
+body {}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+li,
+img,
+address,
+figure,
+figcaption {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+@font-face {
+    font-family: bebasneue;
+    src: url(../fonts/bebasneue.ttf);
+}
+
+
+/* common css ends */
+
+header {
+    background: #fcdb00;
+}
+
+header .navbar.navbar-expand-lg.navbar-light.navbar-expand-md {
+    padding-top: 60px;
+}
+
+header .navbar .navbar-nav .nav-item .nav-link {
+    background: #000 none repeat scroll 0 0;
+    line-height: 25px;
+    width: 20px;
+    padding: 0px;
+    margin: 0 10px;
+    text-align: center;
+    color: #fcdb00;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+header .navbar .navbar-nav .nav-item .nav-link:hover {
+    background: #288feb;
+}
+
+/*header part ends */
+
+#home {
+    background: #fcdb00;
+    padding-top: 200px;
+    padding-bottom: 150px;
+}
+
+h1 {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #000;
+    padding-bottom: 20px;
+}
+
+#home p {
+    color: #313841;
+    font-size: 20px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    padding-bottom: 20px;
+    line-height: 30px;
+}
+
+#home a {
+    width: 70px;
+    line-height: 70px;
+    text-align: center;
+    border: 1px solid #010101;
+    display: inline-block;
+    font-size: 32px;
+    margin: 0px 17px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    color: #010101;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+#home a:hover {
+    background: #010101;
+    color: #fff;
+    border-color: #010101;
+}
+
+/* home part ends */
+
+#about {
+    padding-bottom: 95px;
+    padding-top: 115px;
+}
+
+#about .common_heading {}
+
+.common_heading h2 {
+    color: #010101;
+    font-size: 32px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+}
+
+.common_heading p {
+    color: #313841;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 65px;
+    line-height: 30px;
+}
+
+#about .image-fluid {
+    max-height: 100%;
+}
+
+#about .content h3 {
+    padding-top: 60px;
+    color: #010101;
+    font-size: 22px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+
+#about .content p {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    color: #898989;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+/* about section ends */
+
+#contact {
+    background: #010101;
+    padding-top: 95px;
+    padding-bottom: 50px;
+}
+
+#contact .common_heading h2 {
+    color: #fcdb00;
+}
+
+#contact .common_heading p {
+    color: #898989;
+}
+
+#contact input {
+    background: #fff none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-size: 16px;
+    height: 50px;
+    color: #898989;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    width: 100%;
+    padding-left: 20px;
+}
+
+#contact button {
+    background: #fcdb00 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: #010101;
+    font-size: 16px;
+    height: 50px;
+    text-transform: uppercase;
+    width: 125px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* contact section ends */
+
+footer {
+    background: #010101;
+    padding-top: 50px;
+    padding-bottom: 200px;
+}
+
+footer h4 {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    padding-left: 50px;
+    color: #fff;
+}
+
+footer p {
+    color: #fff;
+    padding-left: 50px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+footer ul li a {
+    color: #fff;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+footer ul li a:hover {
+    color: #fff;
+}
+
+/* footer ends */
